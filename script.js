@@ -18,6 +18,7 @@ let highscore = 0;
 
 console.log(secretNumber);
 
+// DOM manipulation
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
 
